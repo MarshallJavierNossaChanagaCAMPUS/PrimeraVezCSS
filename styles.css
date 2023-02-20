@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'dimitri';
+    src: url(ASSETS/dimitri/DIMIS___.TTF);
+}
+@font-face {
+    font-family: 'minecraftory';
+    src: url(ASSETS/minercraftory/Minercraftory.ttf);
+}
+body {
+    background-image: url(img/fondo.png);
+    background-size: cover;
+    background-repeat: repeat;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.checkDiv{
+    display: none;    
+}
+@media (max-width: 690px){
+    .navDp .navDpLista{
+        display: none;
+    }
+    .checkDiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navDp .logoNav{
+        display: none;
+    }
+} 
+.navDp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.295);
+    width: 100vw;
+    height: 60px;
+    padding: 10px;
+}
+.logoNav {
+    width: 70px;
+    height: auto;
+    border-radius: 50px;
+    padding-left: 50px;
+}
+.logoNavResponsive {
+    width: 70px;
+    height: auto;
+    border-radius: 50px;
+}
+.navDpLista {
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+    gap: 20px;
+}
+.navDpLista li a, .navDpLista li, h2 {
+    font-family: 'dimitri';
+    font-size: 30px;
+    margin: 2px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.divIF {
+    background-color: #fafafa10;
+    background-size: cover;
+    backdrop-filter: blur(0.5rem);
+    width: 90%;
+    height: 1550px;
+    margin: auto;
+    margin-top: 60px;
+}
+.YT, .Tch {
+    font-size: 80px;
+    width: 100%;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.informationYT {
+    display: flex;
+    width: 100%;
+}
+.logo {
+    display: flex;
+    margin: auto;
+    border-radius: 200px;
+    width: 400px;
+    height: 400px;
+}
+.textYT, .textTch {
+    display: flex;
+    font-family: 'minecraftory';
+    margin: 15px;
+    color: white;
+    font-size: 30px;
+    align-items: center;
+    text-align: justify;
+}
+.sub {
+    background: red;
+    border-radius: 10px;
+    display: flex;
+    width: 140px;
+    height: 40px;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-family: 'minecraftory';
+}
+.subTch {
+    background: rgb(153, 0, 255);
+    border-radius: 10px;
+    display: flex;
+    width: 140px;
+    height: 40px;
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-family: 'minecraftory';
+}
